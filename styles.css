@@ -89,3 +89,37 @@ a, .info-subtext {
 .main {
     height: 100vh;
 }
+
+.info-heading-2 {
+    font-size: 36px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 96px;
+}
+
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.image {
+    width: 125px;
+    height: 125px;
+    border-color: #3882F6;
+    border-radius: 12px;
+    border-style: solid;
+    margin: 0;
+}
+
+.subtext {
+    color: #1f2937;
+}
